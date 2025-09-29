@@ -22,5 +22,38 @@ The Team have following people:
 	- Collection of User Stories 
 3. Product Backlog
 	 - The first that the project owner creates
-4. Scrum
-	- The time decided by the Team to complete one scrum usually 2-4 weeks  
+	 - Prepared at the start
+	 - compiled stories and Epics 
+4. Sprint
+	- The time decided by the Team to complete a user story usually 2-4 weeks  
+5. Sprint Planning Meeting 
+	- Meeting conducted to decide what can be done in the sprint and what duration 
+6. Sprint backlog
+	- Stories committed by the dev and qa team
+7. Scrum Meeting 
+	- Meeting conducted by Scrum Master everyday 15 mins. scrum standup 
+	- Yesterday progress
+	- today's plan 
+	- any problem 
+8. Sprint Review 
+	- Demo to the product owner 
+9. Sprint retrospective Meeting
+	- Meeting at the of the Sprint, the entire team to retrospect about what went wrong or what went good. 
+10. Story point 
+	- Rough estimation of completing a story by dev and qa team in terms of Fibonacci series 0 11 2 3
+	- 1 story point = 1 hour or 1day
+11. Burndown chart 
+	- A chart prepared and maintained by scrum master to streamline and motiner the sprints by dev and qa team
+
+
+#### Roles
+- Product Owner
+- Scrum Master / Manager
+- Team
+#### Artefact 
+- Product Backlog
+- Sprint Backlog
+- Burndown chart
+
+#### Ceremonies
+- Sprint planning 
