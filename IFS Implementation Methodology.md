@@ -33,6 +33,9 @@ Use of scope tool
 - Model business process 
 - **Visulize Scope**
 
+
+
+
 ### **Levels**
 1. Main level (1 digit =  7)
 2. Process level (2 digits = 7.1)
@@ -51,7 +54,3 @@ Scenario Level
 	Normal PO req
 	Express PO req
 	Delayed PO req
-
-hello 
-hehherehr
-
