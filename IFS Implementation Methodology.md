@@ -1,4 +1,7 @@
+#IfsApplication10 
 ### [[IFS]] Methodology
+
+The Philosophy followed in the IFS Implementation is **RAPID PROTOTYPING**
 
 1) Initiate Project 
 	- Plan and prepare 
