@@ -1,6 +1,4 @@
-#IfsApplication10 
 [[IFS]]
-
 Values 
 - Agile
 - Collaborative 
