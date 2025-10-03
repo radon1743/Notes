@@ -45,7 +45,7 @@ wk
 #### Cloudsuite 
 - heavy investment in hooks and loop
 wk 
-- small manufacturing installed than [[ifs]] 
+- small manufacturing installed than [[IFS]] 
 - lack of experience implementation
 
 #### M3
