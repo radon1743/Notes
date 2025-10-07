@@ -15,6 +15,8 @@ The Philosophy followed in the IFS Implementation is **RAPID PROTOTYPING**
 	- Running and operational support 
 Close project 
 
+![[Pasted image 20251003163228.png]]
+
 
 ### [[IFS]] Implementation 
 1. Define scope and project : baseline of the solution, project and services.
@@ -25,34 +27,15 @@ Close project
 6. Go live: Put solution to working and give operational support
 
 
-### Scope Tool
-A tool used to map the solution by modelling business processes down to scenario level.
-Use of scope tool
-- Define requirements
-- Map out solutions
-- Client and IFS team can collaborate 
-- Uses 2c8 modelling tool 
-- Model business process 
-- **Visulize Scope**
 
+why Erp fails?
+- Failed to deliver ROI 
+- Longer than expected 
+- Budget 
+- worker and executive are unsatisfied
 
-
-
-### **Levels**
-1. Main level (1 digit =  7)
-2. Process level (2 digits = 7.1)
-3. Sub-Process level (3 digits = 7.1.2)
-4. Scenario level (4 digits = 7.1.2.4)
-
-##### Example p2p 
-
-Main level 
-	Procurement
-Process level
-	PO request 
-Sub-Process Level
-	Handle PO request
-Scenario Level
-	Normal PO req
-	Express PO req
-	Delayed PO req
+Early protoype 
+- early identification of gaps
+- quick proof of concept 
+- bring customer project team to speed up
+- 
