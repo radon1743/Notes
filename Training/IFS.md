@@ -23,3 +23,9 @@ IFS stands for Industrial and Financial Services., it is a global company and a 
  - User-friendly UI
 
 
+### Focused Industries
+- Aerospace & Defence 
+- Eng, Construction and Infrastructure 
+- Energy, Utilities & Resources
+- Manufacturing 
+- Service Industries
