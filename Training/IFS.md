@@ -10,7 +10,7 @@ IFS stands for Industrial and Financial Services., it is a global company and a 
 ### Areas covered
 1. Finance (transactions, budgeting )
 2. Supply chain (ordering inventory)
-3. Manufacturing (production, assembly, qc)
+3. [[ Manufacturing]] (production, assembly, qc)
 4. Field Services (work orders, service scheduling)
 5. HR (emp management, payroll, time track)
 
