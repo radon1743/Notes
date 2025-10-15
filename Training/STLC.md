@@ -43,3 +43,34 @@ A process through which the software is tested
 ## 5) State Transition Technique
 - States and transitions are defined 
 - Testers need to test at each state for each transition 
+
+
+# Functional Testing 
+- Functional testing is a method of software testing that focuses on the functionality of an application or system
+- Can be performed at various stages
+- Based on functionalities of the requirements
+- Defects error and other issues
+- Look and feel
+
+unit testing
+integration testing
+System testing
+Regression Testing
+User Acceptance Testing
+
+
+## Non Functional Testing 
+- How good the application is 
+- how well the system works 
+- reliability, efficiency, maintainability, usability etc.
+Types 
+- performance (Validate response time)
+- load testing (how much load it can handle at a time)
+- Stress (High insertion and noting down when the system breaks)
+- Usability  (look feel, navigation)
+- Maintainability 
+- Portability 
+- Volume (Huge amount of data)
+- Configuration (deployment to  different systems and dependencies )
+- Compatibility testing (Different browsers, OS, Screen sizes)
+- Security (check for vulnerability and protection of data)
