@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"b355bfdf6d919d35","type":"group","x":-520,"y":-600,"width":1040,"height":1040,"label":"**COMPANY**  (Top level entity handles logistics) : ABC Limited"},
+		{"id":"af9fd0aaaa01ca79","type":"text","text":"**SITE  (Operating unit)** : ABC Vadodara Branch  ","x":-500,"y":-340,"width":1000,"height":760},
+		{"id":"fb54f803a815d97c","type":"text","text":"**SERVICE ORGANIZATION \n(Defines who perform what work):** \nABC Vadodara Tech Support","x":-480,"y":-280,"width":800,"height":300},
+		{"id":"025c20d21262ad9a","type":"text","text":".\n\n**WAREHOUSE ( Goods and material are stored ):** ABC Vadodara warehouse","x":-480,"y":40,"width":960,"height":360},
+		{"id":"7710cba522364982","type":"text","text":"**CUSTOMER :** XYZ Company\n(The entity who receives the service )\n","x":-260,"y":-560,"width":760,"height":200},
+		{"id":"743e8c449830c152","type":"text","text":"BAY (Section of a warehouse): Laptop Unit ","x":-460,"y":120,"width":920,"height":260},
+		{"id":"bd82220051ec6bb1","type":"text","text":"ROW (Sub Section): ROW 3","x":-440,"y":160,"width":880,"height":200},
+		{"id":"c82a187d85bf4090","type":"text","text":"BIN (Smallest unit of storage: Bin 09","x":-420,"y":220,"width":840,"height":120},
+		{"id":"30093fc73918b722","type":"text","text":"REQUEST (A supporting activity)","x":-140,"y":-400,"width":280,"height":100},
+		{"id":"d87c495bc3cbd3b3","type":"text","text":"MANUFACTURING","x":340,"y":-240,"width":140,"height":100},
+		{"id":"1fc12bf2673e52c5","type":"text","text":"REPAIR SHOP ","x":340,"y":-120,"width":140,"height":140},
+		{"id":"1cec0d0855ddc9d0","type":"text","text":"WORK ORDER: (High level document defines work) Manufacture 100 laptops\n\n","x":-140,"y":-320,"width":280,"height":260},
+		{"id":"bf5f51e4eeb21b55","type":"text","text":"INSTALLED BASE (assets under service)","x":320,"y":-540,"width":150,"height":100},
+		{"id":"1bab0f3f0d8dd709","type":"text","text":"SLA\nformal contract  that defines the level of service expected","x":320,"y":-440,"width":160,"height":180},
+		{"id":"eaf16fd8b3925ecb","type":"text","text":"INVENTORY PARTS","x":20,"y":240,"width":180,"height":80},
+		{"id":"f0317fea4619a58e","type":"text","text":"NONINVENTORY PARTS","x":220,"y":240,"width":180,"height":80},
+		{"id":"cfeb286388b2db02","type":"text","text":"STANDARD TASK (Template Task) : Battery Change\n\nMaterials are issued from the warehouse","x":-120,"y":-100,"width":240,"height":180},
+		{"id":"a5c3950c028f118b","type":"text","text":"**Work Task :**\nA work task is a specific activity or job","x":-120,"y":-220,"width":240,"height":100},
+		{"id":"7509fd4e167a2d1b","type":"text","text":"CONTRACT : Defines the scope of work ","x":-500,"y":-580,"width":220,"height":140},
+		{"id":"0d9d25142251ffb0","type":"text","text":"**Price Rules:**\nPR are mechanisms to control how a customer will be charged for a certain service","x":160,"y":-420,"width":140,"height":260}
+	],
+	"edges":[
+		{"id":"dc3e866ebf6452db","fromNode":"d87c495bc3cbd3b3","fromSide":"bottom","toNode":"025c20d21262ad9a","toSide":"top"},
+		{"id":"19f5ad71bb3b3b45","fromNode":"7710cba522364982","fromSide":"left","toNode":"7509fd4e167a2d1b","toSide":"bottom"}
+	]
+}

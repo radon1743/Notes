@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"b23f5ea6bdbb715e","type":"text","text":"# Bug life cycle","x":-180,"y":-300,"width":240,"height":70},
+		{"id":"c7173e7710c8e87a","type":"text","text":"NEW (the defect is identifies)","x":-185,"y":-168,"width":205,"height":64},
+		{"id":"fe67357bd2e9a618","type":"text","text":"Assigned to dev(High priority) Open | In progress","x":-185,"y":-54,"width":205,"height":85},
+		{"id":"bd250c02389cf1f0","type":"text","text":"Fixed (by a developer)","x":-185,"y":80,"width":205,"height":69},
+		{"id":"53a2154c5dd9815a","type":"text","text":"Retest / In testing ","x":-185,"y":200,"width":205,"height":69},
+		{"id":"5b8dff03d2de6c30","type":"text","text":"Closed (the problem is fixed)","x":-185,"y":320,"width":205,"height":69},
+		{"id":"2b213fe50df08160","type":"text","text":"The test was resolved because of non reproducible or wrong test data","x":-520,"y":-73,"width":250,"height":124},
+		{"id":"fb91a8ca8d163cbd","type":"text","text":"Deferred state (low priority defects)  ","x":140,"y":-164,"width":250,"height":60},
+		{"id":"b49cc7922ff026e7","type":"text","text":"Re open (the same ) resigned","x":140,"y":200,"width":250,"height":69}
+	],
+	"edges":[
+		{"id":"b2382a78cb46b360","fromNode":"c7173e7710c8e87a","fromSide":"right","toNode":"fb91a8ca8d163cbd","toSide":"left"},
+		{"id":"481227644f7aa49c","fromNode":"c7173e7710c8e87a","fromSide":"bottom","toNode":"fe67357bd2e9a618","toSide":"top"},
+		{"id":"271ae68050be12b5","fromNode":"fe67357bd2e9a618","fromSide":"bottom","toNode":"bd250c02389cf1f0","toSide":"top"},
+		{"id":"787ad60f29cbf46b","fromNode":"bd250c02389cf1f0","fromSide":"bottom","toNode":"53a2154c5dd9815a","toSide":"top"},
+		{"id":"1378e331808fd272","fromNode":"53a2154c5dd9815a","fromSide":"bottom","toNode":"5b8dff03d2de6c30","toSide":"top"},
+		{"id":"762e484609a419a3","fromNode":"53a2154c5dd9815a","fromSide":"right","toNode":"b49cc7922ff026e7","toSide":"left"},
+		{"id":"3511bfb67838783b","fromNode":"b49cc7922ff026e7","fromSide":"top","toNode":"fe67357bd2e9a618","toSide":"right"},
+		{"id":"c33ef7966b7817a8","fromNode":"fe67357bd2e9a618","fromSide":"left","toNode":"2b213fe50df08160","toSide":"right"},
+		{"id":"f56c5a1bb20cffb6","fromNode":"2b213fe50df08160","fromSide":"bottom","toNode":"5b8dff03d2de6c30","toSide":"left"}
+	]
+}

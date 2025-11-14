@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"b2e8df912b2ecb05","type":"group","x":-880,"y":-440,"width":1280,"height":1400,"label":"Master data and Request Management"},
+		{"id":"b5c8efc122056d83","type":"group","x":-880,"y":1040,"width":1320,"height":840,"label":"Dispatch services"},
+		{"id":"adb7d284bda960af","type":"group","x":-760,"y":2160,"width":1200,"height":800,"label":"Service Execution "},
+		{"id":"15df523b2d49d28b","type":"group","x":-720,"y":2960,"width":800,"height":182,"label":"Invoicing "},
+		{"id":"6683453107003cc4","type":"text","text":"","x":-451,"y":2980,"width":250,"height":60},
+		{"id":"9f22d4cf25715d1b","type":"text","text":"","x":-700,"y":2984,"width":250,"height":60},
+		{"id":"e5a7ecca1c5412a2","type":"text","text":"# **Service Management Flow** \n#ifs ","x":-880,"y":-640,"width":1240,"height":120,"color":"6"},
+		{"id":"4a95f72ee9500f9f","type":"text","text":"## Service \nService is a supporting activity \n## Service Catalog (Menu for the services)\nList of services offered by the company\n","x":-440,"y":160,"width":360,"height":234,"color":"4"},
+		{"id":"a2cdf5d71f2b1afc","type":"text","text":"The **Service resources** are resources that can be planned and allocated on Work Task.  **Use in Service** indicator on the resource group needs to be set to yes.","x":-840,"y":-400,"width":320,"height":140,"color":"4"},
+		{"id":"0cda6865f5021dbd","type":"text","text":"# Resource Group\nIt can include crew groups, machine groups, person groups, and tool/equipment groups, which are used to plan and allocate resources for various jobs and activities.\n","x":-840,"y":-160,"width":360,"height":200,"color":"4"},
+		{"id":"7f8555a9e3e28823","type":"text","text":"# Price Rules\nPR are mechanisms to control how a customer will be charged for a certain service","x":-800,"y":280,"width":267,"height":140,"color":"4"},
+		{"id":"efc5e21801365c20","type":"text","text":"","x":-400,"y":3040,"width":250,"height":60},
+		{"id":"43ed0b98fb15e643","type":"text","text":"# Company \n(Top level entity under which all service and financial transaction occur)\n","x":0,"y":-240,"width":320,"height":140,"color":"4"},
+		{"id":"ce3f9271acb0fa2d","type":"text","text":"# Resources \nEverything that make up capacity that can be used in planning and execution processes in IFS Cloud. \ne.g. the same person or group of persons can participate in project, maintenance and manufacturing processes.","x":-400,"y":-160,"width":318,"height":240,"color":"4"},
+		{"id":"787bf1e411dee4e9","type":"text","text":"# Service Request \nA service request can be logged manually or automatically, It’s the starting point for service execution.","x":-840,"y":520,"width":440,"height":320,"color":"4"},
+		{"id":"52c622288ce6cc0e","type":"text","text":"# Request Work Task \nDetailed work description about the individual tasks that will be converted maybe to Work Tasks later. ","x":-840,"y":680,"width":440,"height":160,"color":"4"},
+		{"id":"0b49ce4035cc2697","type":"text","text":"# Work Order (WO)\nA detailed document outlining maintenance or operational tasks, describing what needs to be done, who will do it and which resources are required.","x":-840,"y":1200,"width":680,"height":360,"color":"2"},
+		{"id":"b32178ebf7fd3af7","type":"text","text":"# Work Task\nA work task is a specific activity or job that is part of a larger work order or service request. It involves detailed execution plans, including the necessary resources, materials, and steps required to complete the task. Work tasks are often derived from standard tasks, which serve as templates to ensure consistency and efficiency in task execution","x":-840,"y":1360,"width":680,"height":200,"color":"2"},
+		{"id":"18e3e583a323a7f8","type":"text","text":"# Service Level Agreement \n A formal contract between a Service provider and a customer that defines the level of service expected\n- Measurable metrics, Uptime, response time\n- Responsibilities and exclusions \n- penalties \n- Scope of the service","x":-160,"y":640,"width":520,"height":240,"color":"4"},
+		{"id":"65f0234edea256e4","type":"text","text":" # Standard Task\nThey serve as templates that define the necessary resources, materials, and work steps for a work task, and can automatically generate a work task when associated with certain activities. Some tasks are defined in Standard Task Library ","x":-120,"y":1080,"width":520,"height":200,"color":"3"},
+		{"id":"805dbe451617546a","type":"text","text":"# Site \nA physical location under a company, (factory, branch, depot etc)\nA company can have multiple sites.\n","x":0,"y":0,"width":320,"height":180,"color":"4"},
+		{"id":"0aba832444dd2ba7","type":"text","text":"# Service Organization \nA group of people or resources that perform certain tasks.\n\nUsed to assign work orders, dispatch work and track services.","x":40,"y":360,"width":300,"height":240,"color":"4"}
+	],
+	"edges":[
+		{"id":"772017823b0cdced","fromNode":"805dbe451617546a","fromSide":"bottom","toNode":"0aba832444dd2ba7","toSide":"top","label":"Service Org\n belongs to a site"},
+		{"id":"fe7d3c21aa11a92c","fromNode":"43ed0b98fb15e643","fromSide":"bottom","toNode":"805dbe451617546a","toSide":"top"},
+		{"id":"2bc132384c4e5675","fromNode":"0aba832444dd2ba7","fromSide":"left","toNode":"4a95f72ee9500f9f","toSide":"right"},
+		{"id":"b121fd038ef26a97","fromNode":"805dbe451617546a","fromSide":"left","toNode":"ce3f9271acb0fa2d","toSide":"right"},
+		{"id":"fb6169645a9fb0a3","fromNode":"0cda6865f5021dbd","fromSide":"bottom","toNode":"4a95f72ee9500f9f","toSide":"left"},
+		{"id":"2129efc35b856504","fromNode":"adb7d284bda960af","fromSide":"bottom","toNode":"6683453107003cc4","toSide":"right"},
+		{"id":"bb9c7254d6c3d5f4","fromNode":"4a95f72ee9500f9f","fromSide":"bottom","toNode":"787bf1e411dee4e9","toSide":"right"},
+		{"id":"1044a7c70b538517","fromNode":"18e3e583a323a7f8","fromSide":"left","toNode":"787bf1e411dee4e9","toSide":"right"},
+		{"id":"6f3ef39c0ff4d323","fromNode":"18e3e583a323a7f8","fromSide":"bottom","toNode":"0b49ce4035cc2697","toSide":"top"},
+		{"id":"ea66322160272a6d","fromNode":"65f0234edea256e4","fromSide":"left","toNode":"4a95f72ee9500f9f","toSide":"bottom"},
+		{"id":"3708e0d8e32c1710","fromNode":"65f0234edea256e4","fromSide":"right","toNode":"18e3e583a323a7f8","toSide":"right"},
+		{"id":"426df34a5e0745a7","fromNode":"7f8555a9e3e28823","fromSide":"bottom","toNode":"4a95f72ee9500f9f","toSide":"bottom"},
+		{"id":"235f6e03291fb0f5","fromNode":"52c622288ce6cc0e","fromSide":"left","toNode":"b32178ebf7fd3af7","toSide":"left"},
+		{"id":"1bf5732b42361548","fromNode":"ce3f9271acb0fa2d","fromSide":"top","toNode":"a2cdf5d71f2b1afc","toSide":"right"}
+	]
+}
