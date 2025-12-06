@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"b56f4988166f6434","x":200,"y":-120,"width":200,"height":200,"type":"text","text":"**CLOUD DATABASE**\n![[Pasted image 20251121112221.png]]"},
+		{"id":"45b4d22465b33320","x":-460,"y":-240,"width":100,"height":80,"type":"text","text":"Mobile User"},
+		{"id":"d9deda33ca6e4605","type":"text","text":"Mobile User","x":-460,"y":-40,"width":100,"height":80},
+		{"id":"d75cd5833103abe5","type":"text","text":"Mobile User","x":-460,"y":-140,"width":100,"height":80},
+		{"id":"8949a964d5318930","x":-20,"y":-360,"width":160,"height":120,"type":"text","text":"PUSH Messages\n(Transactional Data) Time critical Data"},
+		{"id":"b1b51b8819b1734a","x":-160,"y":-100,"width":160,"height":100,"type":"text","text":"OUT Message"},
+		{"id":"d63edca5320752fd","x":-300,"y":-320,"width":250,"height":100,"type":"text","text":"A push notification is used to trigger a sync to the device."},
+		{"id":"31da315f4d560646","type":"text","text":"BATCH Messages\n(Basic Data)","x":20,"y":140,"width":180,"height":120}
+	],
+	"edges":[
+		{"id":"71a71408c700bc79","fromNode":"b56f4988166f6434","fromSide":"bottom","toNode":"31da315f4d560646","toSide":"right"},
+		{"id":"239f58e3f4e27504","fromNode":"b56f4988166f6434","fromSide":"top","toNode":"8949a964d5318930","toSide":"right"},
+		{"id":"add3201a40e7b831","fromNode":"8949a964d5318930","fromSide":"bottom","toNode":"b1b51b8819b1734a","toSide":"top","label":"Immediately Sent \nto Mobile user"},
+		{"id":"60d526f03455c30d","fromNode":"b1b51b8819b1734a","fromSide":"left","toNode":"45b4d22465b33320","toSide":"right"},
+		{"id":"92571f98d945f0a1","fromNode":"b1b51b8819b1734a","fromSide":"left","toNode":"d75cd5833103abe5","toSide":"right"},
+		{"id":"637cd32f167cb17b","fromNode":"b1b51b8819b1734a","fromSide":"left","toNode":"d9deda33ca6e4605","toSide":"right"},
+		{"id":"c163adbe1c8a0e04","fromNode":"31da315f4d560646","fromSide":"left","toNode":"b1b51b8819b1734a","toSide":"bottom","label":"These entities will\nsync periodically "}
+	]
+}
