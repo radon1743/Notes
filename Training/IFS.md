@@ -44,3 +44,6 @@ IFS applications 10 is ERP software tools suite launched in 2018
 
 ### IFS Aurena (Aura + Arena)
 A modern browser based UI 
+
+
+![[Pasted image 20251126104735.png]]

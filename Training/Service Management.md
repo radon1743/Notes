@@ -1,4 +1,8 @@
 #ifs 
+
+
+
+![[Pasted image 20251125130804.png]]
 # Company 
 A company is organized group of people who come together to achieve a shared objective.
 Typically producing goods, services to customers.
@@ -80,3 +84,4 @@ Customer Warranty Template, Request Contract Line Urgency, Request Contract, Urg
 
 # Topic in Service Management 
 [[Request Management]]
+[[Schedule Optimization and Dispatch]]
